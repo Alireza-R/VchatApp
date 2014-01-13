@@ -5,7 +5,7 @@ Voice chat client and server.
 
 Info:
 
-This is the first version of my voice chat system. In future versions, the code will be reviewed, the sound quality should be improved and it should support SSL/TLS communications. In the current version, The client and server are multi threaded and server can handle many clients.
+This is the first version of my voice chat system. In future versions, the code will be reviewed, the sound quality should be improved and it should support SSL/TLS communications. In the current version, the client and server are multi threaded and server can handle many clients.
 
 Installation:
 
