@@ -1,7 +1,7 @@
 VchatApp
 ========
 
-voice chat client and server.
+Voice chat client and server.
 
 This is the first version of my voice chat system. In future versions, the bugs will be fixed and it should support SSL/TLS communications.
 
