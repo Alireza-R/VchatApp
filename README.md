@@ -9,7 +9,7 @@ This is the first version of my voice chat system. In future versions, the code 
 
 Installation:
 
-The server needs to files named Database.txt and online_clients.txt.
+The server needs files named Database.txt and online_clients.txt.
 For using the codes, you need to install ALSA (Advanced Linux Sound Architecture) SDK on Ubuntu. you can install it by: 
 sudo apt-get install libasound-dev
 
@@ -20,7 +20,7 @@ Operation steps:
 
 1. Users should register to the server by client (TCP protocol) and server will keep information of all users in Database.txt. 
 
-2. Each user can sign in to the server and server will keep the socket number, name and IP address of that user in online_client.txt. 
+2. Each user can sign in to the server and server will keep the socket number, username and IP address of that user in online_client.txt. 
 
 3. Every user that connects to the server can ask for more information about other online users to make a communication or it can wait for other users to connect to it. 
 
