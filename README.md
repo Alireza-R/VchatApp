@@ -15,4 +15,9 @@ We are working with PortAudio library to connect to the sound system. You need t
 http://portaudio.com/docs/v19-doxydocs/compile_linux.html
 
 Operation steps:
-At first the user should register to the server by client and server will keep information of all users in Database.txt. Then the user can sign in to the server and server will keep the socket number, name and IP address of that user in online_client.txt. Every user that connects to the server can ask for more information about other online users to make a communication or it can wait for other users to connect to it. Updates are transfered between the server and client and if one user is not online anymore, the server will notify the client and client will drop the connection.
+1. Users should register to the server by client (TCP protocol) and server will keep information of all users in Database.txt. 
+2. Each user can sign in to the server and server will keep the socket number, name and IP address of that user in online_client.txt. 
+3. Every user that connects to the server can ask for more information about other online users to make a communication or it can wait for other users to connect to it. 
+4. If the user wants to make a connection, it will send the name of other online client to the server and will recieve the IP address of other client to make a connection.
+5. The user can use the IP address of other client to make a UDP connection.
+6. Updates are transfered between the server and client and if one user is not online anymore, the server will notify the client and client will drop the connection.
